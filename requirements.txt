@@ -1,0 +1,4 @@
+# requirements.txt
+fastf1
+matplotlib
+pandas
