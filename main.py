@@ -14,8 +14,8 @@ def plot_lap_times(year=2023, gp='Bahrain', session_type='Q'):
     session.load()
 
     # Get all laps
-    laps = session.laps
-    print(laps.pick_driver('VER').pick_fastest())
+    laps = session.laps.columns
+    print(laps)
 
 
 if __name__ == "__main__":
